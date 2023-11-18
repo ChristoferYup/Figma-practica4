@@ -108,3 +108,38 @@ button{
     background-color: #6D0AD3;
     color: white;
 }
+/* service */
+
+.servicess{
+    width: 540px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 700px;
+    height: 40vh;
+
+}
+
+.servicess div{
+    display: flex;
+    width: 308px;
+    height: 218px;
+    border: solid 8px #D1FFA2;
+    background-color: #00CF95;
+}
+.servicess img{
+    margin: 22px;
+}
+.servicess p{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #6D0AD3;
+    padding: 20px;
+    background-color:  #D1FFA2;
+    margin-top: 150px;
+    margin-bottom: 1000px;
+    border-radius: 8px;
+    font-weight: bold;
+}
