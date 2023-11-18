@@ -123,8 +123,8 @@
 .producto{
     height: 300px;
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
     
 }
 .producto div {
@@ -234,3 +234,239 @@
   .parteC .derecha {
     flex: 60%; /* 30% de ancho y puede crecer o encoger */
   }
+ 
+
+
+  /* Anthoni */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Caja-principal{
+    width: 958px;
+    height: 532px;
+    
+
+}
+
+.Titulo{
+    color: #0098EF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.TituloB{
+    color: #0098EF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left; /* Alinea el texto hacia la izquierda */
+    padding-right: 900px;
+}
+
+.rectangulo1{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 4.png);
+    color: white;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+
+.rectangulo2{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 5.png);
+}
+
+.rectangulo3{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 6.png);
+}
+
+.rectangulo4{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 7.png);
+}
+
+.rectangulo5{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 8.png);
+}
+
+.rectangulo6{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 9.png);
+}
+
+.rectangulo7{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 10.png);
+}
+
+.rectangulo8{
+    width: 224px;
+    height: 220px;
+    flex-shrink: 0;
+    background-image: url(./imagenes/Rectangle\ 11.png);
+}
+
+.fila1{
+    display: flex;
+    padding-left: 25px;
+    margin-top: 30px;
+}
+
+.fila2{
+    display: flex;
+    padding-left: 25px;
+
+}
+
+.fondomorado{
+    width: 178px;
+    height: 174px;
+    margin-left: 23px;
+    margin-top: 21px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(109, 10, 211, 0.80)
+    
+}
+
+.division1{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.division2{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.division3{
+    font-size: 13px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+
+
+.division4{
+    width: 45px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #D1FFA2;
+    color: #580AAF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+.division5{
+    width: 33px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #D1FFA2;
+    color: #580AAF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 71px;
+    margin-top: -19px;
+
+
+}
+
+.division6{
+    width: 30px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #D1FFA2;
+    color: #580AAF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 120px;
+    margin-top: -20px;
+
+
+}
+
+.division7{
+    width: 64px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #D1FFA2;
+    color: #580AAF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 2px;
+    margin-left: 7px;
+
+
+}
+
+.division8{
+    width: 68px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #D1FFA2;
+    color: #580AAF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: -19px;
+    margin-left: 85px;
+}
+.emailContent{
+    display: flex;
+}
+.emailSus{
+    background-color: #5A0CB0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: azure;
+    font-size: 10px;
+}
