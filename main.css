@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    margin-top: 40px;
+    align-items: center;
+    height: 200px;
+    line-height: 50px;
+
+}
+.imagen{
+    width: 20px;
+    
+}
+.imagenes{
+    margin-left: 90px;
+    margin-bottom: 80px;
+}
+.gracias{
+    display: flex;
+    height: px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    color: rgba(0, 207, 149, 1);
+    ;
+}
+.clases{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.corazon{
+
+    justify-content: center;
+    text-align: center;
+}
+.Sobre:hover{
+    border-bottom: solid blueviolet;
+    color: blueviolet;
+}
+.logo{
+    justify-content: left;
+    
+}
+.contenedor_logo{
+    display: flex;
+    width: 100px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
