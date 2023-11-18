@@ -1,6 +1,70 @@
 *{
     margin: 0;
     padding: 0;
+}
+/* Cesar MARCA */
+
+.main{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    /* border: solid red; */
+    
+
+  }
+  .titulo{
+    color: #0098EF;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+
+.fila1{
+    margin-top: 20px;
+    
+}
+.fila2{
+    margin-top: 20px;
+}
+
+.fila3{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 308px;
+    height: 57px;
+    border-radius: 15px;
+    
+
+}
+
+.boton-mas{
+    width: 636px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.boton-enviar{
+    background:#6D0AD3 ;
+    width: 144px;
+    height: 57px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    
+}
+/* Cristhian Medina */
+*{
+    margin: 0;
+    padding: 0;
 
 }
 .contenedor {
@@ -24,10 +88,10 @@
 .gracias{
     display: flex;
     height: px;
-    width: 150px;
+    width: 140px;
     text-align: center;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 140px;
     color: rgba(0, 207, 149, 1);
     ;
 }
@@ -37,7 +101,7 @@
     width: 500px;
 }
 .corazon{
-
+    margin-right: 70px;
     justify-content: center;
     text-align: center;
 }
