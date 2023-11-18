@@ -109,7 +109,10 @@ button{
     color: white;
 }
 /* service */
-
+h4{
+    color: #5FBFF5;
+    font-weight: bold;
+}
 .servicess{
     width: 540px;
     margin: auto;
