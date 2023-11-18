@@ -123,6 +123,8 @@
 .producto{
     height: 300px;
     display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
 .producto div {
@@ -212,16 +214,23 @@
     border: 5px solid #daf105;
     height: 90%;
 }
-
+.imageC{
+    background-image: url("./Imagenes2/imagen6.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: 5px solid #daf105;
+    height: 90%;
+}
 
 .parteC {
     display: flex;
   }
   .parteC .izquierda {
-    flex: 30%; /* 70% de ancho y puede crecer o encoger */
+    flex: 40%; /* 70% de ancho y puede crecer o encoger */
   }
 
   
   .parteC .derecha {
-    flex: 70%; /* 30% de ancho y puede crecer o encoger */
+    flex: 60%; /* 30% de ancho y puede crecer o encoger */
   }
