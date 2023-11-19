@@ -260,9 +260,9 @@ h4{
 
 .producto{
     height: 300px;
+    width: 1440px;
+    
     display: flex;
-    padding-left: 230px;
-    padding-right: 230px;
     
 }
 .producto div {
@@ -272,6 +272,7 @@ h4{
 
 .parteA {
     display: flex;
+    padding: 20px;
   }
   .parteA .izquierda {
     flex: 60%; /* 70% de ancho y puede crecer o encoger */
@@ -608,5 +609,154 @@ h4{
     color: azure;
     font-size: 10px;
 }
+.producto{
+    height: 300px;
+    width: 900px;
+   
+    display: flex;
+    
+}
+.divisonDiv{
+    width: 220px;
 
 
+}
+
+.imagenA{
+    background-image: url("./Imagenes2/imagen1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: #6D0AD3 solid 3px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bloqueA{
+    display: flex;
+    justify-content: center;
+}
+.parteA{
+    display:flex;
+    flex-direction: column;
+
+    width: 120px;
+}
+.parteA h4{
+    color: black;
+    margin-left: 10px;
+}
+.parteA a{
+    margin-left: 10px;
+}
+.parteA p {
+    max-width: 100%; /* Limita el ancho del párrafo al ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho del párrafo */
+    
+}
+.bloqueB{
+   display: flex;
+   align-items: center;
+
+}
+.parteB{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+}
+.parteB h4{
+    color: black;
+    margin-top: -10px;
+}
+.parteB p {
+    max-width: 100%; /* Limita el ancho del párrafo al ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho del párrafo */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imagenB{
+    background-image: url("./Imagenes2/imagen2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: yellow solid 3px;
+
+    height: 150px;
+}
+.imagenB2{
+    background-image: url("./Imagenes2/imagen3.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: yellow solid 3px;
+    background-position: center;;
+    height: 500px;
+}
+.imagenC{
+    margin-top: 25px;
+    background-image: url("./Imagenes2/imagen6.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+    border: yellow solid 3px;
+    height: 150px;
+}
+.parteC{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+}
+.parteC p {
+    max-width: 100%; /* Limita el ancho del párrafo al ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho del párrafo */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.parteC h4{
+color: black;
+}
+.parteC p {
+    max-width: 100%; /* Limita el ancho del párrafo al ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho del párrafo */
+    
+}
+.imagenD2{
+    display: flex;
+
+}
+.imagenD2 input{
+    width: 100px;
+    height: 40px;
+}
+.buttonD2{
+    background-color: #6D0AD3;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.buttonD3{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.parteD{
+    display:flex;
+    flex-direction: column;
+    width: 120px;
+    height: 220px;
+}
+.parteD p {
+    max-width: 100%; /* Limita el ancho del párrafo al ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho del párrafo */
+    margin-left: -1px;
+}
+
+
+.parteD h4{
+color: black;
+}
+.TituloB{
+    padding-left: 300px;
+}
